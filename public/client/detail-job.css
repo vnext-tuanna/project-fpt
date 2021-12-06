@@ -1,0 +1,104 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #3b5a9a;
+}
+.header .content-left nav ul {
+    margin: 0;
+    padding: 0;
+}
+.header .content-left nav ul li {
+    display: inline-block;
+    font-family: "Barlow Condensed", sans-serif, Arial;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 3px;
+}
+.header .content-right {
+    color: #ffffff;
+}
+/* END-HEADER */
+/* START-FIRST */
+@media (max-width: 500px) {
+    .header .content-right {
+        float: left;
+    }
+}
+/* END-FIRST */
+/* START-CONTENT */
+.content{
+    padding: 20px 0 50px 0px;
+}
+.content .infoJob b{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #114a9f;
+    font-family: 'Barlow Condensed', sans-serif, Arial;
+}
+.content .infoJob ul{
+    list-style-type: none;
+    padding: 0;
+}
+.content .infoJob ul li{
+    padding: 5px 0px 5px 0px;
+}
+.content .infoJob ul li:nth-child(odd) {
+    background-color: #eee;
+    border-radius: 5px;
+}
+.content .generalInfo b{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: 'Barlow Condensed', sans-serif, Arial;
+}
+.content .submitCv{
+    border-bottom: 2px solid #eee;
+}
+.content .submitCv .apply a{
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #3b5a9a;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.content .otherJob ul{
+    list-style-type: none;
+    padding: 0;
+}
+.content .otherJob ul li{
+    padding: 3px 0px 3px 0px;
+}
+.content .otherJob ul li a{
+    text-decoration:none;
+    font-family: 'Barlow Condensed', sans-serif, Arial;
+    font-size: 15px;
+}
+.content .converFile input{
+    background-color: #ffffff;
+}
+/* END-CONTENT */
+
+/* START-partner */
+
+/* END-partner */
+/* START-FOOTER */
+.footer {
+    background-color: #19242a;
+    color: #b9b9b9;
+    padding-top: 25px;
+}
+.footer nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+}
+.footer nav ul li a {
+    color: #b9b9b9;
+}
+/* END-FOOTER */
+

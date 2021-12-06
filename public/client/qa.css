@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #3b5a9a;
+}
+.header .content-left nav ul {
+    margin: 0;
+    padding: 0;
+}
+.header .content-left nav ul li {
+    display: inline-block;
+    font-family: "Barlow Condensed", sans-serif, Arial;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 3px;
+}
+.header .content-right {
+    color: #ffffff;
+}
+/* END-HEADER */
+/* START-FIRST */
+@media (max-width: 500px) {
+    .header .content-right {
+        float: left;
+    }
+}
+/* END-FIRST */
+.banner .img-banner img{
+    background-size: 100px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.content{
+    background-color: #efeeee;
+}
+/* START-partner */
+
+/* END-partner */
+/* START-sendTheContact */
+.sendTheContact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sendTheContact .textContent {
+    padding: 20px 200px 20px 200px;
+    text-align: center;
+}
+.sendTheContact form {
+    padding: 20px 100px 20px 100px;
+}
+.sendTheContact form input {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #b9b9b9;
+}
+.sendTheContact form textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #b9b9b9;
+    height: 100px;
+}
+/* END-sendTheContact */
+/* START-FOOTER */
+.footer {
+    background-color: #19242a;
+    color: #b9b9b9;
+    padding-top: 25px;
+}
+.footer nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+}
+.footer nav ul li a {
+    color: #b9b9b9;
+}
+/* END-FOOTER */
